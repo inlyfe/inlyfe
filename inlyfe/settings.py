@@ -74,8 +74,8 @@ WSGI_APPLICATION = 'inlyfe.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'inlyfeApp',
-        'USER': 'admin',
+        'NAME': 'inlyfeDB',
+        'USER': 'masanja',
         'PASSWORD': '#@sfx@2023',
         'HOST': 'localhost',
         'PORT': '',
