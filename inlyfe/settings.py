@@ -77,8 +77,8 @@ DATABASES = {
         'NAME': 'inlyfeDB',
         'USER': 'masanja',
         'PASSWORD': '#@sfx@2023',
-        'HOST': 'localhost',
-        'PORT': '',
+        'HOST': '16.170.195.238',
+        'PORT': ''
     }
 }
 
