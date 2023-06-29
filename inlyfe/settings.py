@@ -73,14 +73,23 @@ WSGI_APPLICATION = 'inlyfe.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'inlyfeDB',
-        'USER': 'masanja',
-        'PASSWORD': '#@sfx@2023',
-        'HOST': '16.170.195.238',
-        'PORT': ''
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# postgreSQL
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'inlyfeDB',
+#         'USER': 'masanja',
+#         'PASSWORD': '#@sfx@2023',
+#         'HOST': '16.170.195.238',
+#         'PORT': ''
+#     }
+# }
 
 
 # Password validation
